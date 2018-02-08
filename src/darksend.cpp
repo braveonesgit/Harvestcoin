@@ -407,7 +407,7 @@ void CDarksendPool::SetNull(){
 }
 
 bool CDarksendPool::SetCollateralAddress(std::string strAddress){
-    CHarvestcoinAddress address;
+    CTokugawacoinAddress address;
     if (!address.SetString(strAddress))
     {
         LogPrintf("CDarksendPool::SetCollateralAddress - Invalid DarkSend collateral address\n");
@@ -787,9 +787,9 @@ void CDarksendPool::ChargeRandomFees(){
 
                 Being that DarkSend has "no fees" we need to have some kind of cost associated
                 with using it to stop abuse. Otherwise it could serve as an attack vector and
-                allow endless transaction that would bloat Harvest and make it unusable. To
+                allow endless transaction that would bloat Tokugawa and make it unusable. To
                 stop these kinds of attacks 1 in 50 successful transactions are charged. This
-                adds up to a cost of 0.002HM per transaction on average.
+                adds up to a cost of 0.002TOK per transaction on average.
             */
             if(r <= 10)
             {
@@ -1437,7 +1437,7 @@ bool CDarksendPool::DoAutomaticDenominating(bool fDryRun)
         // should have some additional amount for them
         nLowestDenom += DARKSEND_COLLATERAL*4;
 
-    CAmount nBalanceNeedsAnonymized = nAnonymizeHarvestAmount*COIN - pwalletMain->GetAnonymizedBalance();
+    CAmount nBalanceNeedsAnonymized = nAnonymizeTokugawaAmount*COIN - pwalletMain->GetAnonymizedBalance();
 
     // if balanceNeedsAnonymized is more than pool max, take the pool max
     if(nBalanceNeedsAnonymized > DARKSEND_POOL_MAX) nBalanceNeedsAnonymized = DARKSEND_POOL_MAX;
@@ -1930,10 +1930,10 @@ bool CDarksendPool::IsCompatibleWithSession(int64_t nDenom, CTransaction txColla
 void CDarksendPool::GetDenominationsToString(int nDenom, std::string& strDenom){
     // Function returns as follows:
     //
-    // bit 0 - 100HM+1 ( bit on if present )
-    // bit 1 - 10HM+1
-    // bit 2 - 1HM+1
-    // bit 3 - .1HM+1
+    // bit 0 - 100TOK+1 ( bit on if present )
+    // bit 1 - 10TOK+1
+    // bit 2 - 1TOK+1
+    // bit 3 - .1TOK+1
     // bit 3 - non-denom
 
 
@@ -2006,10 +2006,10 @@ int CDarksendPool::GetDenominations(const std::vector<CTxOut>& vout, bool fSingl
 
     // Function returns as follows:
     //
-    // bit 0 - 100HM+1 ( bit on if present )
-    // bit 1 - 10HM+1
-    // bit 2 - 1HM+1
-    // bit 3 - .1HM+1
+    // bit 0 - 100TOK+1 ( bit on if present )
+    // bit 1 - 10TOK+1
+    // bit 2 - 1TOK+1
+    // bit 3 - .1TOK+1
 
     return denom;
 }
@@ -2110,7 +2110,7 @@ bool CDarkSendSigner::IsVinAssociatedWithPubkey(CTxIn& vin, CPubKey& pubkey){
 }
 
 bool CDarkSendSigner::SetKey(std::string strSecret, std::string& errorMessage, CKey& key, CPubKey& pubkey){
-    CHarvestcoinSecret vchSecret;
+    CTokugawacoinSecret vchSecret;
     bool fGood = vchSecret.SetString(strSecret);
 
     if (!fGood) {
@@ -2263,7 +2263,7 @@ void ThreadCheckDarkSendPool()
     if(fLiteMode) return; //disable all Darksend/Masternode related functionality
 
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("Harvest-darksend");
+    RenameThread("Tokugawa-darksend");
 
     unsigned int c = 0;
 

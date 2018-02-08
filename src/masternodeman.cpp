@@ -610,7 +610,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
         vRecv >> vin >> addr >> vchSig >> sigTime >> pubkey >> pubkey2 >> count >> current >> lastUpdated >> protocolVersion;
 
         //Invalid nodes check
-        if (sigTime < 1426700641) {
+        if (sigTime < 1510111800) {
             //LogPrintf("dsee - Bad packet\n");
             return;
         }
@@ -813,7 +813,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
         vRecv >> vin >> addr >> vchSig >> sigTime >> pubkey >> pubkey2 >> count >> current >> lastUpdated >> protocolVersion >> rewardAddress >> rewardPercentage;
 
         //Invalid nodes check
-        if (sigTime < 1426700641) {
+        if (sigTime < 1510111800) {
             //LogPrintf("dsee+ - Bad packet\n");
             return;
         }

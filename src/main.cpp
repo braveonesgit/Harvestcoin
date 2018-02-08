@@ -50,7 +50,7 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 unsigned int nStakeMinAge = 24 * 60 * 60; // 24 hours
 unsigned int nModifierInterval = 8 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 45;
+int nCoinbaseMaturity = 46;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -81,7 +81,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Harvest Signed Message:\n";
+const string strMessageMagic = "Tokugawa Signed Message:\n";
 
 std::set<uint256> setValidatedTx;
 
@@ -1355,11 +1355,13 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
-    int64_t nSubsidy = 3.5 * COIN;
-	if (nHeight == 2)
-		 {
-		nSubsidy = 1972800 * COIN;
-		}
+	int64_t nSubsidy;
+	if (nHeight < 101) {
+		nSubsidy = 10000 * COIN;
+	}
+	else {
+		nSubsidy = 14 * COIN;
+	}
 
     return nSubsidy + nFees;
 
@@ -1372,7 +1374,7 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     return nSubsidy + nFees;
 }
 
-static int64_t nTargetTimespan = 48 * 60;  // 48 mins
+static int64_t nTargetTimespan = 25 * 60;  //25 mins
 
 // ppcoin: find last block index up to pindex
 const CBlockIndex* GetLastBlockIndex(const CBlockIndex* pindex, bool fProofOfStake)
@@ -1384,22 +1386,11 @@ const CBlockIndex* GetLastBlockIndex(const CBlockIndex* pindex, bool fProofOfSta
 
 unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
-	unsigned int nTargetTemp = TARGET_SPACING;
-	if (pindexLast->nTime > FORK_TIME)
-		nTargetTemp = TARGET_SPACING2;
-
-	if(pindexLast->GetBlockTime() > STAKE_TIMESPAN_SWITCH_TIME)
-	nTargetTimespan = 2 * 60; // 2 minutes
-
-	if(pindexLast->GetBlockTime() > STAKE_TIMESPAN_SWITCH_TIME1)
-	nTargetTimespan = 10 * 60; // 10 minutes
-
     CBigNum bnTargetLimit = fProofOfStake ? GetProofOfStakeLimit(pindexLast->nHeight) : Params().ProofOfWorkLimit();
 
     if (pindexLast == NULL)
         return bnTargetLimit.GetCompact(); // genesis block
 
-	
     const CBlockIndex* pindexPrev = GetLastBlockIndex(pindexLast, fProofOfStake);
     if (pindexPrev->pprev == NULL)
         return bnTargetLimit.GetCompact(); // first block
@@ -1410,16 +1401,16 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
     int64_t nActualSpacing = pindexPrev->GetBlockTime() - pindexPrevPrev->GetBlockTime();
 
     if (nActualSpacing < 0){
-        nActualSpacing = nTargetTemp;
+        nActualSpacing = TARGET_SPACING;
     }
 
     // ppcoin: target change every block
     // ppcoin: retarget with exponential moving toward target spacing
     CBigNum bnNew;
     bnNew.SetCompact(pindexPrev->nBits);
-    int64_t nInterval = nTargetTimespan / nTargetTemp;
-    bnNew *= ((nInterval - 1) * nTargetTemp + nActualSpacing + nActualSpacing);
-    bnNew /= ((nInterval + 1) * nTargetTemp);
+    int64_t nInterval = nTargetTimespan / TARGET_SPACING;
+    bnNew *= ((nInterval - 1) * TARGET_SPACING + nActualSpacing + nActualSpacing);
+    bnNew /= ((nInterval + 1) * TARGET_SPACING);
 
     if (bnNew <= 0 || bnNew > bnTargetLimit)
         bnNew = bnTargetLimit;
@@ -2524,7 +2515,7 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 
                     CTxDestination address1;
                     ExtractDestination(payee, address1);
-                    CHarvestcoinAddress address2(address1);
+                    CTokugawacoinAddress address2(address1);
 
                     if(!foundPaymentAndPayee) {
                         if(fDebug) { LogPrintf("CheckBlock() : Couldn't find masternode payment(%d|%d) or payee(%d|%s) nHeight %d. \n", foundPaymentAmount, masternodePaymentAmount, foundPayee, address2.ToString().c_str(), pindexBest->nHeight+1); }
@@ -3225,7 +3216,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("Harvest-loadblk");
+    RenameThread("Tokugawa-loadblk");
 
     CImportingNow imp;
 
@@ -4484,10 +4475,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 {
-    int64_t ret = blockValue * 2/3; //67%
-	
-	if(nHeight>21000)
-       ret = blockValue * 4/5; //80%
+    int64_t ret = blockValue * 4/5; //80%
 
     return ret;
 }

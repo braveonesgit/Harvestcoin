@@ -127,10 +127,7 @@ Value getstakinginfo(const Array& params, bool fHelp)
 
     uint64_t nNetworkWeight = GetPoSKernelPS();
     bool staking = nLastCoinStakeSearchInterval && nWeight;
-	unsigned int nTempSpacing = TARGET_SPACING;
-	if (GetAdjustedTime() > FORK_TIME)
-		nTempSpacing = TARGET_SPACING2;
-    nExpectedTime = staking ? (nTempSpacing * nNetworkWeight / nWeight) : 0;
+    nExpectedTime = staking ? (TARGET_SPACING * nNetworkWeight / nWeight) : 0;
 
     Object obj;
 
@@ -167,10 +164,10 @@ Value checkkernel(const Array& params, bool fHelp)
     bool fCreateBlockTemplate = params.size() > 1 ? params[1].get_bool() : false;
 
     if (vNodes.empty())
-        throw JSONRPCError(-9, "Harvest is not connected!");
+        throw JSONRPCError(-9, "Tokugawa is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(-10, "Harvest is downloading blocks...");
+        throw JSONRPCError(-10, "Tokugawa is downloading blocks...");
 
     COutPoint kernel;
     CBlockIndex* pindexPrev = pindexBest;
@@ -248,10 +245,10 @@ Value getworkex(const Array& params, bool fHelp)
         );
 
     if (vNodes.empty())
-        throw JSONRPCError(-9, "Harvest is not connected!");
+        throw JSONRPCError(-9, "Tokugawa is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(-10, "Harvest is downloading blocks...");
+        throw JSONRPCError(-10, "Tokugawa is downloading blocks...");
 
     if (pindexBest->nHeight >= Params().LastPOWBlock())
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
@@ -382,10 +379,10 @@ Value getwork(const Array& params, bool fHelp)
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Harvest is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Tokugawa is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Harvest is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Tokugawa is downloading blocks...");
 
     if (pindexBest->nHeight >= Params().LastPOWBlock())
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
@@ -534,10 +531,10 @@ Value getblocktemplate(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Harvest is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Tokugawa is not connected!");
 
     //if (IsInitialBlockDownload())
-    //    throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Harvest is downloading blocks...");
+    //    throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Tokugawa is downloading blocks...");
 
     if (pindexBest->nHeight >= Params().LastPOWBlock())
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");

@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Harvest</source>
-        <translation>Harvest Hakkında</translation>
+        <source>About Tokugawa</source>
+        <translation>Tokugawa Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Harvest&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Harvest&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;Tokugawa&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Tokugawa&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Harvest developers</source>
+Copyright © 2015-2017 The Tokugawa developers</source>
         <translation>Telif Hakkı © 2009-2014 Bitcoin geliştiricileri
 Telif Hakkı © 2012-2014 NovaCoin geliştiricileri
-Telif Hakkı © 2015-2017 Harvest geliştiricileri</translation>
+Telif Hakkı © 2015-2017 Tokugawa geliştiricileri</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Harvest addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için Harvest adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your Tokugawa addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için Tokugawa adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Harvest address</source>
-        <translation>Bir Harvest adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a Tokugawa address</source>
+        <translation>Bir Tokugawa adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Harvest address</source>
-        <translation>Mesajın, belirli bir Harvest adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified Tokugawa address</source>
+        <translation>Mesajın, belirli bir Tokugawa adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+82"/>
-        <source>Harvest will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Harvest, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>Tokugawa will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Tokugawa, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Harvest</source>
-        <translation>Harvest hakkındaki bilgiyi göster</translation>
+        <source>Show information about Tokugawa</source>
+        <translation>Tokugawa hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Harvest address</source>
-        <translation>Bir Harvest adresine coin gönder</translation>
+        <source>Send coins to a Tokugawa address</source>
+        <translation>Bir Tokugawa adresine coin gönder</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Harvest</source>
-        <translation>Harvest yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for Tokugawa</source>
+        <translation>Tokugawa yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Harvest</source>
-        <translation>Harvest</translation>
+        <source>Tokugawa</source>
+        <translation>Tokugawa</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -453,8 +453,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Harvest</source>
-        <translation>Harvest &amp;Hakkında</translation>
+        <source>&amp;About Tokugawa</source>
+        <translation>Tokugawa &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Harvest client</source>
-        <translation>Harvest istemcisi</translation>
+        <source>Tokugawa client</source>
+        <translation>Tokugawa istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Harvest network</source>
-        <translation><numerusform>Harvest ağına %n etkin bağlantı</numerusform><numerusform>Harvest ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to Tokugawa network</source>
+        <translation><numerusform>Tokugawa ağına %n etkin bağlantı</numerusform><numerusform>Tokugawa ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,8 +605,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Harvest address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir Harvest adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Tokugawa address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir Tokugawa adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -728,8 +728,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Harvest can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. Harvest artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. Tokugawa can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. Tokugawa artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Harvest address.</source>
-        <translation>Girilen %1 adresi, geçerli bir Harvest adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Tokugawa address.</source>
+        <translation>Girilen %1 adresi, geçerli bir Tokugawa adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Harvest-Qt</source>
-        <translation>Harvest-Qt</translation>
+        <source>Tokugawa-Qt</source>
+        <translation>Tokugawa-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Harvest after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra Harvest&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start Tokugawa after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra Tokugawa&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Harvest on system login</source>
-        <translation>Sisteme girişte Harvest&apos;i &amp;başlat</translation>
+        <source>&amp;Start Tokugawa on system login</source>
+        <translation>Sisteme girişte Tokugawa&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1169,8 +1169,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Harvest client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide Harvest istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the Tokugawa client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide Tokugawa istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1179,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Harvest network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Harvest ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
+        <source>Connect to the Tokugawa network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Tokugawa ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1254,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Harvest.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, Harvest yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Tokugawa.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, Tokugawa yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1321,8 +1321,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Harvest.</source>
-        <translation>Bu ayar, Harvest&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+        <source>This setting will take effect after restarting Tokugawa.</source>
+        <translation>Bu ayar, Tokugawa&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1340,8 +1340,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Harvest network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak Harvest ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tokugawa network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak Tokugawa ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1582,8 +1582,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Harvest-Qt help message to get a list with possible Harvest command-line options.</source>
-        <translation>Muhtemel Harvest komut satırı seçeneklerinin bir listesini getirmek için Harvest-Qt yardım mesajını göster</translation>
+        <source>Show the Tokugawa-Qt help message to get a list with possible Tokugawa command-line options.</source>
+        <translation>Muhtemel Tokugawa komut satırı seçeneklerinin bir listesini getirmek için Tokugawa-Qt yardım mesajını göster</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1602,13 +1602,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Harvest - Debug window</source>
-        <translation>Harvest - Hata ayıklama penceresi</translation>
+        <source>Tokugawa - Debug window</source>
+        <translation>Tokugawa - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Harvest Core</source>
-        <translation>Harvest Core</translation>
+        <source>Tokugawa Core</source>
+        <translation>Tokugawa Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1617,8 +1617,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Harvest debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Harvest hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the Tokugawa debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Tokugawa hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1627,8 +1627,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Harvest RPC console.</source>
-        <translation>Harvest RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the Tokugawa RPC console.</source>
+        <translation>Tokugawa RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1736,8 +1736,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 HC</source>
-        <translation>123.456 HC {0.00 ?}</translation>
+        <source>0.00 TOK</source>
+        <translation>123.456 TOK {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1806,8 +1806,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 HC</source>
-        <translation>123.456 HC</translation>
+        <source>123.456 TOK</source>
+        <translation>123.456 TOK</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1821,8 +1821,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Harvest address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir Harvest adresi gir (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir Tokugawa adresi gir (örn: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1921,8 +1921,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Harvest address</source>
-        <translation>UYARI: Geçersiz Harvest adresi</translation>
+        <source>WARNING: Invalid Tokugawa address</source>
+        <translation>UYARI: Geçersiz Tokugawa adresi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1954,7 +1954,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>The address to send the payment to (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1995,8 +1995,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Harvest address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir Harvest adresi girin (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir Tokugawa adresi girin (örn: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2019,8 +2019,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Mesajın imzalanacağı adres (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address to sign the message with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Mesajın imzalanacağı adres (örn: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2056,8 +2056,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Harvest address</source>
-        <translation>Bu Harvest adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this Tokugawa address</source>
+        <translation>Bu Tokugawa adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,13 +2083,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Mesajın imzalandığı adres (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address the message was signed with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Mesajın imzalandığı adres (örn: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Harvest address</source>
-        <translation>Mesajın, belirtilen Harvest adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify the message to ensure it was signed with the specified Tokugawa address</source>
+        <translation>Mesajın, belirtilen Tokugawa adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2099,8 +2099,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Harvest address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir Harvest adresi girin (örn: H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir Tokugawa adresi girin (örn: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2109,8 +2109,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Harvest signature</source>
-        <translation>Harvest imzası gir</translation>
+        <source>Enter Tokugawa signature</source>
+        <translation>Tokugawa imzası gir</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2688,8 +2688,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Harvest version</source>
-        <translation>Harvest versiyonu</translation>
+        <source>Tokugawa version</source>
+        <translation>Tokugawa versiyonu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2698,8 +2698,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Harvestd</source>
-        <translation>-sunucu veya Harvestd&apos;ye komut gönder</translation>
+        <source>Send command to -server or Tokugawad</source>
+        <translation>-sunucu veya Tokugawad&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2718,13 +2718,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Harvest.conf)</source>
-        <translation>Konfigürasyon dosyasını belirt (varsayılan: Harvest.conf)</translation>
+        <source>Specify configuration file (default: Tokugawa.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: Tokugawa.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Harvestd.pid)</source>
-        <translation>pid dosyasını belirt (varsayılan: Harvest.pid)</translation>
+        <source>Specify pid file (default: Tokugawad.pid)</source>
+        <translation>pid dosyasını belirt (varsayılan: Tokugawa.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2741,13 +2741,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Harvestrpc
+rpcuser=Tokugawarpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Harvest Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2853,8 +2853,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Harvest Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Harvest will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, Harvest düzgün çalışmayacaktır.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tokugawa will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, Tokugawa düzgün çalışmayacaktır.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3160,8 +3160,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Harvest Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Harvest is shutting down.</source>
-        <translation>Başlangıç uygunluk kontrolü başarısız oldu. Harvest kapatılıyor.</translation>
+        <source>Initialization sanity check failed. Tokugawa is shutting down.</source>
+        <translation>Başlangıç uygunluk kontrolü başarısız oldu. Tokugawa kapatılıyor.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3225,13 +3225,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Harvest Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Harvest</source>
-        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir Harvest versiyonuna ihtiyaç duyuyor.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Tokugawa</source>
+        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir Tokugawa versiyonuna ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Harvest to complete</source>
-        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için Harvest&apos;i yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart Tokugawa to complete</source>
+        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için Tokugawa&apos;i yeniden başlatın</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3295,8 +3295,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Harvest Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Harvest is probably already running.</source>
-        <translation>Bu bilgisayarda %s bağlanamadı. Harvest muhtemelen halen çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. Tokugawa is probably already running.</source>
+        <translation>Bu bilgisayarda %s bağlanamadı. Tokugawa muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3335,7 +3335,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Harvest Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Harvest is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Tokugawa is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

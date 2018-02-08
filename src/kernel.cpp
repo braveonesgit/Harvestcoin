@@ -1,5 +1,5 @@
 // Copyright (c) 2012-2013 The PPCoin developers
-// Copyright (c) 2014 The Harvest developers
+// Copyright (c) 2014 The Tokugawa developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -129,10 +129,7 @@ bool ComputeNextStakeModifier(const CBlockIndex* pindexPrev, uint64_t& nStakeMod
 
     // Sort candidate blocks by timestamp
     vector<pair<int64_t, uint256> > vSortedByTimestamp;
-	if (pindexPrev->nTime > FORK_TIME)
-		vSortedByTimestamp.reserve(64 * nModifierInterval / TARGET_SPACING2);
-	else
-		vSortedByTimestamp.reserve(64 * nModifierInterval / TARGET_SPACING);
+    vSortedByTimestamp.reserve(64 * nModifierInterval / TARGET_SPACING);
 
     int64_t nSelectionInterval = GetStakeModifierSelectionInterval();
     int64_t nSelectionIntervalStart = (pindexPrev->GetBlockTime() / nModifierInterval) * nModifierInterval - nSelectionInterval;
