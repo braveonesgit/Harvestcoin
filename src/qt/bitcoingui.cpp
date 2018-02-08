@@ -96,7 +96,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
 	nWeight(0)
 {
 	resize(900, 520);
-	setWindowTitle(tr("Tokugawa") + " - " + tr("Wallet"));
+	setWindowTitle(tr("GainerCoin") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
 	qApp->setWindowIcon(QIcon(":icons/bitcoin"));
 	setWindowIcon(QIcon(":icons/bitcoin"));
@@ -104,8 +104,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
 	//setUnifiedTitleAndToolBarOnMac(true);
 	QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
 #endif
-	setObjectName("Tokugawa");
-	setStyleSheet("#Tokugawa { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #dedede, stop: 1 #efefef);  }");
+	setObjectName("GainerCoin");
+	setStyleSheet("#GainerCoin { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #dedede, stop: 1 #efefef);  }");
 	// Accept D&D of URIs
 	setAcceptDrops(true);
 
@@ -288,7 +288,7 @@ void BitcoinGUI::createActions()
 	tabGroup->addAction(receiveCoinsAction);
 
 	sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-	sendCoinsAction->setToolTip(tr("Send coins to a Tokugawa address"));
+	sendCoinsAction->setToolTip(tr("Send coins to a GainerCoin address"));
 	sendCoinsAction->setCheckable(true);
 	sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
 	tabGroup->addAction(sendCoinsAction);
@@ -352,14 +352,14 @@ void BitcoinGUI::createActions()
 	quitAction->setToolTip(tr("Quit application"));
 	quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
 	quitAction->setMenuRole(QAction::QuitRole);
-	aboutAction = new QAction(QIcon(":/icons/bitcoin1"), tr("&About Tokugawa"), this);
-	aboutAction->setToolTip(tr("Show information about Tokugawa"));
+	aboutAction = new QAction(QIcon(":/icons/bitcoin1"), tr("&About GainerCoin"), this);
+	aboutAction->setToolTip(tr("Show information about GainerCoin"));
 	aboutAction->setMenuRole(QAction::AboutRole);
 	aboutQtAction = new QAction(QIcon(":/qt-project.org/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
 	aboutQtAction->setToolTip(tr("Show information about Qt"));
 	aboutQtAction->setMenuRole(QAction::AboutQtRole);
 	optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-	optionsAction->setToolTip(tr("Modify configuration options for Tokugawa"));
+	optionsAction->setToolTip(tr("Modify configuration options for GainerCoin"));
 	optionsAction->setMenuRole(QAction::PreferencesRole);
 	toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
 	encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -443,11 +443,11 @@ void BitcoinGUI::createToolBars()
 	toolbar->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
 	toolbar->setContextMenuPolicy(Qt::PreventContextMenu);
 	toolbar->setObjectName("tabs");
-	toolbar->setStyleSheet("QToolButton { color: #ffffff; font-size: 13px; font-weight: 400; font-family: 'Verdana'; padding: 5px; padding-left: 8px; border: none; }"
-		"QToolButton:hover { background-color: #404040; border: none; padding-top: 5px; padding-bottom: 5px; }"
-		"QToolButton:checked { background-color: #404040; border: none; padding-top: 5px; padding-bottom: 5px; }"
-		"QToolButton:pressed { background-color: #404040; border: none; padding-top: 5px; padding-bottom: 5px; }"
-		"#tabs { color: #000000; background-color: #e31b23; border: none; padding-top: 0px; padding-bottom: 0px; }");
+	toolbar->setStyleSheet("QToolButton { color: #000000; font-size: 13px; font-weight: 400; font-family: 'Verdana'; padding: 5px; padding-left: 8px; border: none; }"
+		"QToolButton:hover { background-color: #eacda1; border: none; padding-top: 5px; padding-bottom: 5px; }"
+		"QToolButton:checked { background-color: #eacda1; border: none; padding-top: 5px; padding-bottom: 5px; }"
+		"QToolButton:pressed { background-color: #eacda1; border: none; padding-top: 5px; padding-bottom: 5px; }"
+		"#tabs { color: #ffffff; background-color: #e7e5e2; border: none; padding-top: 0px; padding-bottom: 0px; }");
 
 	QLabel* header = new QLabel();
 	header->setMinimumSize(152, 152);
@@ -515,7 +515,7 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 #endif
 			if (trayIcon)
 			{
-				trayIcon->setToolTip(tr("Tokugawa client") + QString(" ") + tr("[testnet]"));
+				trayIcon->setToolTip(tr("GainerCoin client") + QString(" ") + tr("[testnet]"));
 				trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
 				toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
 			}
@@ -597,7 +597,7 @@ void BitcoinGUI::createTrayIcon()
 	trayIcon = new QSystemTrayIcon(this);
 	trayIconMenu = new QMenu(this);
 	trayIcon->setContextMenu(trayIconMenu);
-	trayIcon->setToolTip(tr("Tokugawa client"));
+	trayIcon->setToolTip(tr("GainerCoin client"));
 	trayIcon->setIcon(QIcon(":/icons/toolbar"));
 	connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
 		this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -668,7 +668,7 @@ void BitcoinGUI::setNumConnections(int count)
 	default: icon = fUseBlackTheme ? ":/icons/black/connect_4" : ":/icons/connect_4"; break;
 	}
 	labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
-	labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Tokugawa network", "", count));
+	labelConnectionsIcon->setToolTip(tr("%n active connection(s) to GainerCoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)
@@ -754,7 +754,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
 void BitcoinGUI::message(const QString &title, const QString &message, bool modal, unsigned int style)
 {
-	QString strTitle = tr("Tokugawa") + " - ";
+	QString strTitle = tr("GainerCoin") + " - ";
 	// Default to information icon
 	int nMBoxIcon = QMessageBox::Information;
 	int nNotifyIcon = Notificator::Information;
@@ -1060,7 +1060,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
 		if (nValidUrisFound)
 			gotoSendCoinsPage();
 		else
-			notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Tokugawa address or malformed URI parameters."));
+			notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid GainerCoin address or malformed URI parameters."));
 	}
 
 	event->acceptProposedAction();
@@ -1075,7 +1075,7 @@ void BitcoinGUI::handleURI(QString strURI)
 		gotoSendCoinsPage();
 	}
 	else
-		notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Tokugawa address or malformed URI parameters."));
+		notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid GainerCoin address or malformed URI parameters."));
 }
 
 void BitcoinGUI::setEncryptionStatus(int status)

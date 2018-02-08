@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Tokugawa</source>
-        <translation>Om Tokugawa</translation>
+        <source>About GainerCoin</source>
+        <translation>Om GainerCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Tokugawa&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Tokugawa&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;GainerCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GainerCoin&lt;/b&gt; versjon</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Tokugawa developers</source>
+Copyright © 2015-2017 The GainerCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Tokugawa developers</translation>
+Copyright © 2015-2017 The GainerCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Tokugawa addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your GainerCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dette er adressene for å motta betalinger. Du ønsker kanskje å gi ulike adresser til hver avsender så du lettere kan holde øye med hvem som betaler deg.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Tokugawa address</source>
-        <translation>Signer en melding for å bevise din egen Tokugawa adresse.</translation>
+        <source>Sign a message to prove you own a GainerCoin address</source>
+        <translation>Signer en melding for å bevise din egen GainerCoin adresse.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Tokugawa address</source>
-        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk Tokugawa adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified GainerCoin address</source>
+        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk GainerCoin adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Tokugawa will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>GainerCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Tokugawa</source>
-        <translation>Vis info om Tokugawa</translation>
+        <source>Show information about GainerCoin</source>
+        <translation>Vis info om GainerCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Tokugawa address</source>
-        <translation>Send coins til en Tokugawa adresse</translation>
+        <source>Send coins to a GainerCoin address</source>
+        <translation>Send coins til en GainerCoin adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Tokugawa</source>
-        <translation>Endre innstillingene til Tokugawa</translation>
+        <source>Modify configuration options for GainerCoin</source>
+        <translation>Endre innstillingene til GainerCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Tokugawa</source>
-        <translation>Tokugawa</translation>
+        <source>GainerCoin</source>
+        <translation>GainerCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Tokugawa</source>
-        <translation>&amp;Om Tokugawa</translation>
+        <source>&amp;About GainerCoin</source>
+        <translation>&amp;Om GainerCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Tokugawa client</source>
-        <translation>Tokugawa klient</translation>
+        <source>GainerCoin client</source>
+        <translation>GainerCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Tokugawa network</source>
-        <translation><numerusform>%n aktiv tilkobling til Tokugawa nettverket</numerusform><numerusform>%n aktive tilkoblinger til Tokugawa nettverket</numerusform></translation>
+        <source>%n active connection(s) to GainerCoin network</source>
+        <translation><numerusform>%n aktiv tilkobling til GainerCoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til GainerCoin nettverket</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,7 +600,7 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Tokugawa address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid GainerCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -723,7 +723,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Tokugawa can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. GainerCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1045,8 +1045,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Tokugawa address.</source>
-        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig Tokugawa adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GainerCoin address.</source>
+        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig GainerCoin adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1064,8 +1064,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Tokugawa-Qt</source>
-        <translation>Tokugawa-Qt</translation>
+        <source>GainerCoin-Qt</source>
+        <translation>GainerCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1137,13 +1137,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Tokugawa after logging in to the system.</source>
-        <translation>Start Tokugawa automatisk ved hver innlogging.</translation>
+        <source>Automatically start GainerCoin after logging in to the system.</source>
+        <translation>Start GainerCoin automatisk ved hver innlogging.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Tokugawa on system login</source>
-        <translation>&amp;Start Tokugawa ved innlogging</translation>
+        <source>&amp;Start GainerCoin on system login</source>
+        <translation>&amp;Start GainerCoin ved innlogging</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1152,7 +1152,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Tokugawa client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the GainerCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1162,7 +1162,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Tokugawa network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the GainerCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1237,7 +1237,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Tokugawa.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting GainerCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1304,8 +1304,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Tokugawa.</source>
-        <translation>Denne innstillingen vil tre i kraft etter Tokugawa er blitt startet på nytt.</translation>
+        <source>This setting will take effect after restarting GainerCoin.</source>
+        <translation>Denne innstillingen vil tre i kraft etter GainerCoin er blitt startet på nytt.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1323,7 +1323,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tokugawa network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GainerCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1565,7 +1565,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Tokugawa-Qt help message to get a list with possible Tokugawa command-line options.</source>
+        <source>Show the GainerCoin-Qt help message to get a list with possible GainerCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1585,12 +1585,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Tokugawa - Debug window</source>
+        <source>GainerCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>Tokugawa Core</source>
+        <source>GainerCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1600,7 +1600,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Tokugawa debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the GainerCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1610,7 +1610,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Tokugawa RPC console.</source>
+        <source>Welcome to the GainerCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1671,7 +1671,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send Tokugawas</translation>
+        <translation>Send GainerCoins</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1719,8 +1719,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 TOK</source>
-        <translation>123.456 TOK {0.00 ?}</translation>
+        <source>0.00 GNR</source>
+        <translation>123.456 GNR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1789,8 +1789,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 TOK</source>
-        <translation>123.456 TOK</translation>
+        <source>123.456 GNR</source>
+        <translation>123.456 GNR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1804,7 +1804,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1904,8 +1904,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Tokugawa address</source>
-        <translation>ADVARSEL: Ugyldig Tokugawa adresse</translation>
+        <source>WARNING: Invalid GainerCoin address</source>
+        <translation>ADVARSEL: Ugyldig GainerCoin adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1937,7 +1937,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>The address to send the payment to (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1978,7 +1978,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2002,7 +2002,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>The address to sign the message with (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2039,7 +2039,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Tokugawa address</source>
+        <source>Sign the message to prove you own this GainerCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2066,12 +2066,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>The address the message was signed with (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Tokugawa address</source>
+        <source>Verify the message to ensure it was signed with the specified GainerCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2082,7 +2082,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2092,8 +2092,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Tokugawa signature</source>
-        <translation>Skriv inn Tokugawa signatur</translation>
+        <source>Enter GainerCoin signature</source>
+        <translation>Skriv inn GainerCoin signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2671,8 +2671,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Tokugawa version</source>
-        <translation>Tokugawa versjon</translation>
+        <source>GainerCoin version</source>
+        <translation>GainerCoin versjon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2681,7 +2681,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Tokugawad</source>
+        <source>Send command to -server or GainerCoind</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2701,12 +2701,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Tokugawa.conf)</source>
+        <source>Specify configuration file (default: GainerCoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Tokugawad.pid)</source>
+        <source>Specify pid file (default: GainerCoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2724,13 +2724,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Tokugawarpc
+rpcuser=GainerCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GainerCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2836,7 +2836,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tokugawa will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GainerCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3142,7 +3142,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Tokugawa is shutting down.</source>
+        <source>Initialization sanity check failed. GainerCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3207,12 +3207,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Tokugawa</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of GainerCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Tokugawa to complete</source>
+        <source>Wallet needed to be rewritten: restart GainerCoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3277,7 +3277,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Tokugawa is probably already running.</source>
+        <source>Unable to bind to %s on this computer. GainerCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3317,7 +3317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Tokugawa is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. GainerCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

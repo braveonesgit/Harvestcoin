@@ -42,7 +42,7 @@ public:
         CoinControlFeatures,    // bool
         UseBlackTheme,     // bool
         DarksendRounds,    // int
-        AnonymizeTokugawaAmount, //int
+        AnonymizeGainerCoinAmount, //int
         OptionIDRowCount,
     };
 
@@ -84,7 +84,7 @@ signals:
     void reserveBalanceChanged(qint64);
     void coinControlFeaturesChanged(bool);
     void darksendRoundsChanged(int);
-    void AnonymizeTokugawaAmountChanged(int);
+    void AnonymizeGainerCoinAmountChanged(int);
 };
 
 #endif // OPTIONSMODEL_H

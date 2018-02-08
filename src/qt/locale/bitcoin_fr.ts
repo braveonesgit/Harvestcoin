@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Tokugawa</source>
-        <translation>Au sujet de Tokugawa</translation>
+        <source>About GainerCoin</source>
+        <translation>Au sujet de GainerCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Tokugawa&lt;/b&gt; version</source>
-        <translation>Version de &lt;b&gt;Tokugawa&lt;/b&gt;</translation>
+        <source>&lt;b&gt;GainerCoin&lt;/b&gt; version</source>
+        <translation>Version de &lt;b&gt;GainerCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Tokugawa developers</source>
+Copyright © 2015-2017 The GainerCoin developers</source>
         <translation>Copyright © 2009-2014 Les développeurs Bitcoin
 Copyright © 2012-2014 Les développeurs NovaCoin
-Copyright © 2015-2017 Les développeurs Tokugawa</translation>
+Copyright © 2015-2017 Les développeurs GainerCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Tokugawa addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your GainerCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Ce sont vos adresses pour recevoir vos paiements. Vous pouvez utiliser une adresse différente pour chaque réception afin d&apos;identifier facilement le payeur.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Tokugawa address</source>
-        <translation>Signer un message afin de valider l&apos;identité de votre adresse Tokugawa</translation>
+        <source>Sign a message to prove you own a GainerCoin address</source>
+        <translation>Signer un message afin de valider l&apos;identité de votre adresse GainerCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Tokugawa address</source>
-        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse Tokugawa spécifique.</translation>
+        <source>Verify a message to ensure it was signed with a specified GainerCoin address</source>
+        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse GainerCoin spécifique.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -227,7 +227,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Avertissement : Si vous chiffrez votre portefeuille et perdez votre passphrase, vous ne pourrez &lt;b&gt;plus accéder à vos Tokugawas&lt;/b&gt;!</translation>
+        <translation>Avertissement : Si vous chiffrez votre portefeuille et perdez votre passphrase, vous ne pourrez &lt;b&gt;plus accéder à vos GainerCoins&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Tokugawa will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>L&apos;application Tokugawa va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
+        <source>GainerCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>L&apos;application GainerCoin va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Tokugawa</source>
-        <translation>Afficher des informations au sujet de Tokugawa</translation>
+        <source>Show information about GainerCoin</source>
+        <translation>Afficher des informations au sujet de GainerCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Tokugawa address</source>
-        <translation>Envoyer des monnaies vers une adresse Tokugawa</translation>
+        <source>Send coins to a GainerCoin address</source>
+        <translation>Envoyer des monnaies vers une adresse GainerCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Tokugawa</source>
-        <translation>Modification des options de configuration de Tokugawa</translation>
+        <source>Modify configuration options for GainerCoin</source>
+        <translation>Modification des options de configuration de GainerCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Tokugawa</source>
-        <translation>Tokugawa</translation>
+        <source>GainerCoin</source>
+        <translation>GainerCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Tokugawa</source>
-        <translation>&amp;Au sujet de Tokugawa</translation>
+        <source>&amp;About GainerCoin</source>
+        <translation>&amp;Au sujet de GainerCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Tokugawa client</source>
-        <translation>Client Tokugawa</translation>
+        <source>GainerCoin client</source>
+        <translation>Client GainerCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Tokugawa network</source>
-        <translation><numerusform>%n connexion active au réseau Tokugawa</numerusform><numerusform>%n connexions actives au réseau Tokugawa</numerusform></translation>
+        <source>%n active connection(s) to GainerCoin network</source>
+        <translation><numerusform>%n connexion active au réseau GainerCoin</numerusform><numerusform>%n connexions actives au réseau GainerCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresse : %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Tokugawa address or malformed URI parameters.</source>
-        <translation>L&apos;adresse du portefeuille Tokugawa n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GainerCoin address or malformed URI parameters.</source>
+        <translation>L&apos;adresse du portefeuille GainerCoin n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Tokugawa can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a été rencontrée. L&apos;application Tokugawa ne peut plus être s&apos;exécuter de façon correcte et va se terminer.</translation>
+        <source>A fatal error occurred. GainerCoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a été rencontrée. L&apos;application GainerCoin ne peut plus être s&apos;exécuter de façon correcte et va se terminer.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Tokugawa address.</source>
-        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse Tokugawa valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GainerCoin address.</source>
+        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse GainerCoin valide.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Tokugawa-Qt</source>
-        <translation>Tokugawa-Qt</translation>
+        <source>GainerCoin-Qt</source>
+        <translation>GainerCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Tokugawa after logging in to the system.</source>
-        <translation>Démarrage automatique du client Tokugawa lors de la connexion au système</translation>
+        <source>Automatically start GainerCoin after logging in to the system.</source>
+        <translation>Démarrage automatique du client GainerCoin lors de la connexion au système</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Tokugawa on system login</source>
-        <translation>&amp;Démarrage du client Tokugawa à la connexion au système</translation>
+        <source>&amp;Start GainerCoin on system login</source>
+        <translation>&amp;Démarrage du client GainerCoin à la connexion au système</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Tokugawa client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquemwnr le port client de Tokugawa sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
+        <source>Automatically open the GainerCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquemwnr le port client de GainerCoin sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Tokugawa network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connexion au réseau Tokugawa à travers un proxy SOCKS (e.g. Connexion via le réseau Tor).</translation>
+        <source>Connect to the GainerCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connexion au réseau GainerCoin à travers un proxy SOCKS (e.g. Connexion via le réseau Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Tokugawa.</source>
-        <translation>La langue d&apos;interface de l&apos;utilisateur peut être définie ici. Les modification seront prises en compte après redémarrage de l&apos;application Tokugawa</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GainerCoin.</source>
+        <translation>La langue d&apos;interface de l&apos;utilisateur peut être définie ici. Les modification seront prises en compte après redémarrage de l&apos;application GainerCoin</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Tokugawa.</source>
-        <translation>Les paramètres prendront effet après redémarrage du client Tokugawa</translation>
+        <source>This setting will take effect after restarting GainerCoin.</source>
+        <translation>Les paramètres prendront effet après redémarrage du client GainerCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tokugawa network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau Tokugawa mais ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GainerCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau GainerCoin mais ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Tokugawa-Qt help message to get a list with possible Tokugawa command-line options.</source>
-        <translation>Afficher le message d&apos;aide Tokugawa-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande Tokugawa</translation>
+        <source>Show the GainerCoin-Qt help message to get a list with possible GainerCoin command-line options.</source>
+        <translation>Afficher le message d&apos;aide GainerCoin-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande GainerCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-104"/>
-        <source>Tokugawa - Debug window</source>
-        <translation>Tokugawa - Fenêtre de déboggage</translation>
+        <source>GainerCoin - Debug window</source>
+        <translation>GainerCoin - Fenêtre de déboggage</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Tokugawa Core</source>
-        <translation>Tokugawa Core</translation>
+        <source>GainerCoin Core</source>
+        <translation>GainerCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Tokugawa debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le fichier journal de debug Tokugawa au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
+        <source>Open the GainerCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le fichier journal de debug GainerCoin au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Tokugawa RPC console.</source>
-        <translation>Bienvenue sur la console RPC de Tokugawa.</translation>
+        <source>Welcome to the GainerCoin RPC console.</source>
+        <translation>Bienvenue sur la console RPC de GainerCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 TOK</source>
-        <translation>123.456 TOK {0.00 ?}</translation>
+        <source>0.00 GNR</source>
+        <translation>123.456 GNR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 TOK</source>
-        <translation>123.456 TOK</translation>
+        <source>123.456 GNR</source>
+        <translation>123.456 GNR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Entrer une adresse Tokugawa (par ex: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Entrer une adresse GainerCoin (par ex: G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Tokugawa address</source>
-        <translation>AVERTISSEMENT: Adresse Tokugawa Invalide</translation>
+        <source>WARNING: Invalid GainerCoin address</source>
+        <translation>AVERTISSEMENT: Adresse GainerCoin Invalide</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1927,7 +1927,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>AVERTISSEMENT: Adresse Tokugawa Invalide</translation>
+        <translation>AVERTISSEMENT: Adresse GainerCoin Invalide</translation>
     </message>
 </context>
 <context>
@@ -1949,7 +1949,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>The address to send the payment to (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1990,8 +1990,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Entrer une adresse Tokugawa (par ex: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Entrer une adresse GainerCoin (par ex: G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
 </context>
 <context>
@@ -2014,8 +2014,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Entrer une adresse Tokugawa (par ex: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address to sign the message with (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Entrer une adresse GainerCoin (par ex: G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2051,8 +2051,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Tokugawa address</source>
-        <translation>Signer le message afin de prouver l&apos;identité de votre adresse Tokugawa</translation>
+        <source>Sign the message to prove you own this GainerCoin address</source>
+        <translation>Signer le message afin de prouver l&apos;identité de votre adresse GainerCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2078,13 +2078,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>L&apos;adresse avec laquelle le message à été signé (ex: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address the message was signed with (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>L&apos;adresse avec laquelle le message à été signé (ex: G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Tokugawa address</source>
-        <translation>Vérifiez le message afin de vous assurer qu&apos;il provient de l&apos;adresse Tokugawa spécifiée.</translation>
+        <source>Verify the message to ensure it was signed with the specified GainerCoin address</source>
+        <translation>Vérifiez le message afin de vous assurer qu&apos;il provient de l&apos;adresse GainerCoin spécifiée.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Entrer une adresse Tokugawa (par ex: T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Entrer une adresse GainerCoin (par ex: G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Tokugawa signature</source>
-        <translation>Entrer une signature Tokugawa</translation>
+        <source>Enter GainerCoin signature</source>
+        <translation>Entrer une signature GainerCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Tokugawa version</source>
-        <translation>Version Tokugawa</translation>
+        <source>GainerCoin version</source>
+        <translation>Version GainerCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Tokugawad</source>
-        <translation>Envoyer commande à -server ou Tokugawad</translation>
+        <source>Send command to -server or GainerCoind</source>
+        <translation>Envoyer commande à -server ou GainerCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Tokugawa.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut: Tokugawa.conf)</translation>
+        <source>Specify configuration file (default: GainerCoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut: GainerCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Tokugawad.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut: Tokugawad.pid)</translation>
+        <source>Specify pid file (default: GainerCoind.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut: GainerCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Tokugawarpc
+rpcuser=GainerCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GainerCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tokugawa will not work properly.</source>
-        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. Tokugawa ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GainerCoin will not work properly.</source>
+        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. GainerCoin ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Tokugawa is shutting down.</source>
+        <source>Initialization sanity check failed. GainerCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Tokugawa</source>
-        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application Tokugawa</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GainerCoin</source>
+        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application GainerCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Tokugawa to complete</source>
-        <translation>Le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application Tokugawa</translation>
+        <source>Wallet needed to be rewritten: restart GainerCoin to complete</source>
+        <translation>Le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application GainerCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Tokugawa is probably already running.</source>
-        <translation>Connexion au port %s impossible. L&apos;application Tokugawa est probablement déjà en cours d&apos;exécution</translation>
+        <source>Unable to bind to %s on this computer. GainerCoin is probably already running.</source>
+        <translation>Connexion au port %s impossible. L&apos;application GainerCoin est probablement déjà en cours d&apos;exécution</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Tokugawa is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. GainerCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

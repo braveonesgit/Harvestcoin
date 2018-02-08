@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Tokugawa</source>
-        <translation>Despre Tokugawa</translation>
+        <source>About GainerCoin</source>
+        <translation>Despre GainerCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Tokugawa&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;Tokugawa&lt;/b&gt;</translation>
+        <source>&lt;b&gt;GainerCoin&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;GainerCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Tokugawa developers</source>
+Copyright © 2015-2017 The GainerCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Tokugawa developers</translation>
+Copyright © 2015-2017 The GainerCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Tokugawa addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele Tokugawa pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your GainerCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele GainerCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Tokugawa address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă Tokugawa</translation>
+        <source>Sign a message to prove you own a GainerCoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă GainerCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Tokugawa address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă Tokugawa</translation>
+        <source>Verify a message to ensure it was signed with a specified GainerCoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă GainerCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Tokugawa will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Tokugawa se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>GainerCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GainerCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Tokugawa</source>
-        <translation>Arată informații despre Tokugawa</translation>
+        <source>Show information about GainerCoin</source>
+        <translation>Arată informații despre GainerCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Tokugawa address</source>
-        <translation>Trimite monede către o adresă Tokugawa</translation>
+        <source>Send coins to a GainerCoin address</source>
+        <translation>Trimite monede către o adresă GainerCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Tokugawa</source>
-        <translation>Modifică opțiuni de configurare pentru Tokugawa</translation>
+        <source>Modify configuration options for GainerCoin</source>
+        <translation>Modifică opțiuni de configurare pentru GainerCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Tokugawa</source>
-        <translation>Tokugawa</translation>
+        <source>GainerCoin</source>
+        <translation>GainerCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Tokugawa</source>
-        <translation>Despre Tokugawa</translation>
+        <source>&amp;About GainerCoin</source>
+        <translation>Despre GainerCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Tokugawa client</source>
-        <translation>Clientul Tokugawa</translation>
+        <source>GainerCoin client</source>
+        <translation>Clientul GainerCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Tokugawa network</source>
-        <translation><numerusform>%n conexiune activă la reteaua Tokugawa</numerusform><numerusform>%n conexiuni active la reteaua Tokugawa</numerusform><numerusform>%n conexiuni active la reteaua Tokugawa</numerusform></translation>
+        <source>%n active connection(s) to GainerCoin network</source>
+        <translation><numerusform>%n conexiune activă la reteaua GainerCoin</numerusform><numerusform>%n conexiuni active la reteaua GainerCoin</numerusform><numerusform>%n conexiuni active la reteaua GainerCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Tokugawa address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa Tokugawa invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GainerCoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa GainerCoin invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Tokugawa can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. Tokugawa nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. GainerCoin can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. GainerCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Tokugawa address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă Tokugawa validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GainerCoin address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă GainerCoin validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Tokugawa-Qt</source>
-        <translation>Tokugawa-Qt</translation>
+        <source>GainerCoin-Qt</source>
+        <translation>GainerCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Tokugawa after logging in to the system.</source>
-        <translation>Pornește Tokugawa imdiat după logarea în sistem</translation>
+        <source>Automatically start GainerCoin after logging in to the system.</source>
+        <translation>Pornește GainerCoin imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Tokugawa on system login</source>
-        <translation>$Pornește Tokugawa la logarea în sistem</translation>
+        <source>&amp;Start GainerCoin on system login</source>
+        <translation>$Pornește GainerCoin la logarea în sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Tokugawa client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul Tokugawa pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the GainerCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul GainerCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Tokugawa network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecteaza la reteaua Tokugawa prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
+        <source>Connect to the GainerCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecteaza la reteaua GainerCoin prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Tokugawa.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea Tokugawa.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GainerCoin.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea GainerCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Tokugawa.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea Tokugawa.</translation>
+        <source>This setting will take effect after restarting GainerCoin.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea GainerCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tokugawa network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua Tokugawa după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GainerCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua GainerCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Tokugawa-Qt help message to get a list with possible Tokugawa command-line options.</source>
-        <translation>Afișa mesajul de ajutor Tokugawa-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă Tokugawa.</translation>
+        <source>Show the GainerCoin-Qt help message to get a list with possible GainerCoin command-line options.</source>
+        <translation>Afișa mesajul de ajutor GainerCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă GainerCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Tokugawa - Debug window</source>
-        <translation>Tokugawa - fereastră depanare</translation>
+        <source>GainerCoin - Debug window</source>
+        <translation>GainerCoin - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Tokugawa Core</source>
-        <translation>Tokugawa Core</translation>
+        <source>GainerCoin Core</source>
+        <translation>GainerCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Tokugawa debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare Tokugawa din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the GainerCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare GainerCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Tokugawa RPC console.</source>
-        <translation>Bine ati venit la consola Tokugawa RPC.</translation>
+        <source>Welcome to the GainerCoin RPC console.</source>
+        <translation>Bine ati venit la consola GainerCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 TOK</source>
-        <translation>123.456 TOK {0.00 ?}</translation>
+        <source>0.00 GNR</source>
+        <translation>123.456 GNR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 TOK</source>
-        <translation>123.456 TOK</translation>
+        <source>123.456 GNR</source>
+        <translation>123.456 GNR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă Tokugawa(ex:T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Introduceți o adresă GainerCoin(ex:G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Tokugawa address</source>
-        <translation>Atenție: Adresă Tokugawa invalidă</translation>
+        <source>WARNING: Invalid GainerCoin address</source>
+        <translation>Atenție: Adresă GainerCoin invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1949,7 +1949,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>The address to send the payment to (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1990,8 +1990,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă Tokugawa(ex:T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Introduceți o adresă GainerCoin(ex:G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
 </context>
 <context>
@@ -2014,8 +2014,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa cu care semnati mesajul(ex. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address to sign the message with (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Adresa cu care semnati mesajul(ex. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2051,8 +2051,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Tokugawa address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă Tokugawa</translation>
+        <source>Sign the message to prove you own this GainerCoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă GainerCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2078,13 +2078,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa cu care a fost semnat mesajul(ex. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address the message was signed with (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Adresa cu care a fost semnat mesajul(ex. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Tokugawa address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă Tokugawa</translation>
+        <source>Verify the message to ensure it was signed with the specified GainerCoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă GainerCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă Tokugawa(ex:T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Introduceți o adresă GainerCoin(ex:G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Tokugawa signature</source>
-        <translation>Introduceti semnatura Tokugawa</translation>
+        <source>Enter GainerCoin signature</source>
+        <translation>Introduceti semnatura GainerCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Tokugawa version</source>
-        <translation>Versiune Tokugawa</translation>
+        <source>GainerCoin version</source>
+        <translation>Versiune GainerCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Tokugawad</source>
-        <translation>Trimite comanda catre server sau Tokugawad</translation>
+        <source>Send command to -server or GainerCoind</source>
+        <translation>Trimite comanda catre server sau GainerCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Tokugawa.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: Tokugawa.conf)</translation>
+        <source>Specify configuration file (default: GainerCoin.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: GainerCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Tokugawad.pid)</source>
-        <translation>Speficica fisier pid(implicit: Tokugawa.pid)</translation>
+        <source>Specify pid file (default: GainerCoind.pid)</source>
+        <translation>Speficica fisier pid(implicit: GainerCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Tokugawarpc
+rpcuser=GainerCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GainerCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tokugawa will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit Tokugawa nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GainerCoin will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit GainerCoin nu va functiona corect.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Tokugawa is shutting down.</source>
+        <source>Initialization sanity check failed. GainerCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Tokugawa</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de Tokugawa</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GainerCoin</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de GainerCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Tokugawa to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați Tokugawa pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart GainerCoin to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați GainerCoin pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Tokugawa is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil Tokugawa ruleaza</translation>
+        <source>Unable to bind to %s on this computer. GainerCoin is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil GainerCoin ruleaza</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Tokugawa is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. GainerCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

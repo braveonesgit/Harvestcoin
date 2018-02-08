@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>Tokugawa.icns</string>
+	<string>GainerCoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Tokugawa-Qt</string>
+	<string>GainerCoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Tokugawa-Qt</string>
+	<string>GainerCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.Tokugawa.Tokugawa-Qt</string>
+	<string>co.GainerCoin.GainerCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.Tokugawa.TokugawaPayment</string>
+            <string>co.GainerCoin.GainerCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>Tokugawa</string>
+              <string>GainerCoin</string>
             </array>
           </dict>
         </array>

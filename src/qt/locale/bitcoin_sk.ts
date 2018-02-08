@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Tokugawa</source>
-        <translation>O Tokugawae</translation>
+        <source>About GainerCoin</source>
+        <translation>O GainerCoine</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Tokugawa&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Tokugawa&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;GainerCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GainerCoin&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Tokugawa developers</source>
+Copyright © 2015-2017 The GainerCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Tokugawa developers</translation>
+Copyright © 2015-2017 The GainerCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Tokugawa addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše Tokugawa adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your GainerCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše GainerCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Tokugawa address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Tokugawa adresu</translation>
+        <source>Sign a message to prove you own a GainerCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto GainerCoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Tokugawa address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Tokugawa adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified GainerCoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou GainerCoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>Tokugawa will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Tokugawa sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>GainerCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GainerCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Tokugawa</source>
-        <translation>Zobraziť informácie o Tokugawa</translation>
+        <source>Show information about GainerCoin</source>
+        <translation>Zobraziť informácie o GainerCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Tokugawa address</source>
-        <translation>Poslať mince na Tokugawa adresu</translation>
+        <source>Send coins to a GainerCoin address</source>
+        <translation>Poslať mince na GainerCoin adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Tokugawa</source>
-        <translation>Upraviť možnosti konfigurácie pre Tokugawa</translation>
+        <source>Modify configuration options for GainerCoin</source>
+        <translation>Upraviť možnosti konfigurácie pre GainerCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Tokugawa</source>
-        <translation>Tokugawa</translation>
+        <source>GainerCoin</source>
+        <translation>GainerCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -453,8 +453,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Tokugawa</source>
-        <translation>&amp;O Tokugawa</translation>
+        <source>&amp;About GainerCoin</source>
+        <translation>&amp;O GainerCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Tokugawa client</source>
-        <translation>Tokugawa klient</translation>
+        <source>GainerCoin client</source>
+        <translation>GainerCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Tokugawa network</source>
-        <translation><numerusform>%n aktívne spojenie s Tokugawa sieťov</numerusform><numerusform>%n aktívnych spojení s Tokugawa sieťov</numerusform><numerusform>%n aktívnych spojení s Tokugawa sieťou</numerusform></translation>
+        <source>%n active connection(s) to GainerCoin network</source>
+        <translation><numerusform>%n aktívne spojenie s GainerCoin sieťov</numerusform><numerusform>%n aktívnych spojení s GainerCoin sieťov</numerusform><numerusform>%n aktívnych spojení s GainerCoin sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -604,8 +604,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Tokugawa address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Tokugawa adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GainerCoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou GainerCoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -727,8 +727,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Tokugawa can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. Tokugawa už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. GainerCoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. GainerCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Tokugawa address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Tokugawa adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GainerCoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou GainerCoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Tokugawa-Qt</source>
-        <translation>Tokugawa-Qt</translation>
+        <source>GainerCoin-Qt</source>
+        <translation>GainerCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Tokugawa after logging in to the system.</source>
-        <translation>Automaticky spustiť Tokugawa po prihlásení sa do systému.</translation>
+        <source>Automatically start GainerCoin after logging in to the system.</source>
+        <translation>Automaticky spustiť GainerCoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Tokugawa on system login</source>
-        <translation>&amp;Spustiť Tokugawa pri prihlásení do systému</translation>
+        <source>&amp;Start GainerCoin on system login</source>
+        <translation>&amp;Spustiť GainerCoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1168,8 +1168,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Tokugawa client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta Tokugawa na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the GainerCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta GainerCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Tokugawa network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti Tokugawa cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the GainerCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti GainerCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Tokugawa.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Tokugawa.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GainerCoin.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní GainerCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1320,8 +1320,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Tokugawa.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní Tokugawa.</translation>
+        <source>This setting will take effect after restarting GainerCoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní GainerCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1339,8 +1339,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tokugawa network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Tokugawa po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GainerCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou GainerCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1414,7 +1414,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start transfer: click-to-pay handler</source>
-        <translation>Tokugawa sa nedá spustiť: click-to-pay handler</translation>
+        <translation>GainerCoin sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1581,8 +1581,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Tokugawa-Qt help message to get a list with possible Tokugawa command-line options.</source>
-        <translation>Zobraziť Tokugawa-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Tokugawa.</translation>
+        <source>Show the GainerCoin-Qt help message to get a list with possible GainerCoin command-line options.</source>
+        <translation>Zobraziť GainerCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku GainerCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1601,13 +1601,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Tokugawa - Debug window</source>
-        <translation>Tokugawa - Ladiace okno</translation>
+        <source>GainerCoin - Debug window</source>
+        <translation>GainerCoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Tokugawa Core</source>
-        <translation>Jadro Tokugawa</translation>
+        <source>GainerCoin Core</source>
+        <translation>Jadro GainerCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1616,8 +1616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Tokugawa debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Tokugawa súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the GainerCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte GainerCoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1626,8 +1626,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Tokugawa RPC console.</source>
-        <translation>Vitajte v konzole Tokugawa RPC.</translation>
+        <source>Welcome to the GainerCoin RPC console.</source>
+        <translation>Vitajte v konzole GainerCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1735,8 +1735,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 TOK</source>
-        <translation>123.456 TOK {0.00 ?}</translation>
+        <source>0.00 GNR</source>
+        <translation>123.456 GNR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1805,8 +1805,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 TOK</source>
-        <translation>123.456 TOK</translation>
+        <source>123.456 GNR</source>
+        <translation>123.456 GNR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1820,8 +1820,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Tokugawa adresu (napr. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Zadajte GainerCoin adresu (napr. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1920,8 +1920,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Tokugawa address</source>
-        <translation>UPOZORNENIE: Neplatná Tokugawa adresa</translation>
+        <source>WARNING: Invalid GainerCoin address</source>
+        <translation>UPOZORNENIE: Neplatná GainerCoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1953,8 +1953,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa pre poslanie platby (napr. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address to send the payment to (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Adresa pre poslanie platby (napr. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1994,8 +1994,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Tokugawa adresu (napr. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Zadajte GainerCoin adresu (napr. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
 </context>
 <context>
@@ -2018,8 +2018,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa na podpísanie správy (napr. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address to sign the message with (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Adresa na podpísanie správy (napr. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2055,8 +2055,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Tokugawa address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Tokugawa adresu</translation>
+        <source>Sign the message to prove you own this GainerCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto GainerCoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2082,13 +2082,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa správy bola podpísaná (napr. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The address the message was signed with (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Adresa správy bola podpísaná (napr. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Tokugawa address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Tokugawa adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified GainerCoin address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou GainerCoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2098,8 +2098,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Tokugawa address (e.g. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Tokugawa adresu (napr. T8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GainerCoin address (e.g. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</source>
+        <translation>Zadajte GainerCoin adresu (napr. G7FBJNGDmEsU5wx2m3xw85N8kRgCqA8S7L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2108,8 +2108,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Tokugawa signature</source>
-        <translation>Zadajte Tokugawa podpis</translation>
+        <source>Enter GainerCoin signature</source>
+        <translation>Zadajte GainerCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2687,8 +2687,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Tokugawa version</source>
-        <translation>Tokugawa verzia</translation>
+        <source>GainerCoin version</source>
+        <translation>GainerCoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2697,8 +2697,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Tokugawad</source>
-        <translation>Pošli príkaz na -server alebo Tokugawad</translation>
+        <source>Send command to -server or GainerCoind</source>
+        <translation>Pošli príkaz na -server alebo GainerCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2717,13 +2717,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Tokugawa.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: Tokugawa.conf)</translation>
+        <source>Specify configuration file (default: GainerCoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: GainerCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Tokugawad.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: Tokugawad.pid)</translation>
+        <source>Specify pid file (default: GainerCoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: GainerCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2740,24 +2740,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Tokugawarpc
+rpcuser=GainerCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Tokugawa Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GainerCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=Tokugawarpc
+rpcuser=GainerCoinrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;Tokugawa upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;GainerCoin upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2862,8 +2862,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Tokugawa upozornenie&quot; admi
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tokugawa will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Tokugawa nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GainerCoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny GainerCoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3169,8 +3169,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Tokugawa upozornenie&quot; admi
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Tokugawa is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. Tokugawa sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. GainerCoin is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. GainerCoin sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3234,13 +3234,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Tokugawa upozornenie&quot; admi
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Tokugawa</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Tokugawa</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GainerCoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu GainerCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Tokugawa to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Tokugawa k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart GainerCoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte GainerCoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3304,8 +3304,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Tokugawa upozornenie&quot; admi
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Tokugawa is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Tokugawa je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. GainerCoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. GainerCoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3344,8 +3344,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Tokugawa upozornenie&quot; admi
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Tokugawa is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. Tokugawa je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. GainerCoin is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. GainerCoin je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

@@ -17,13 +17,13 @@
 
 class CValidationState;
 
-#define START_MASTERNODE_PAYMENTS_TESTNET 1510122600 //Thursday, November 9, 2017 6:30:00 AM GMT
-#define START_MASTERNODE_PAYMENTS 1510122600 //Thursday, November 9, 2017 6:30:00 AM GMT
+#define START_MASTERNODE_PAYMENTS_TESTNET 1515222000 // Saturday, January 6, 2018 7:00:00 AM GMT
+#define START_MASTERNODE_PAYMENTS 1515222000 // Saturday, January 6, 2018 7:00:00 AM GMT
 
 static const int64_t DARKSEND_COLLATERAL = (0.01*COIN);
 static const int64_t DARKSEND_POOL_MAX = (4999.99*COIN);
 
-static const int64_t STATIC_POS_REWARD = 14 * COIN; //Constant reward of 14 TOK per COIN i.e. 8%
+static const int64_t STATIC_POS_REWARD = 8 * COIN; //Constant reward of 8 GNR per COIN i.e. 8%
 static const int64_t TARGET_SPACING = 72; //72 sec
 
 
@@ -40,7 +40,7 @@ class CReserveKey;
 class CWallet;
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
-static const unsigned int MAX_BLOCK_SIZE = 30000000;
+static const unsigned int MAX_BLOCK_SIZE = 3000000; //3 MB
 /** The maximum size for mined blocks */
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 /** Default for -blockprioritysize, maximum space for zero/low-fee transactions **/
@@ -62,7 +62,7 @@ static const int64_t MIN_TX_FEE = 1000;
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying) */
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** No amount larger than this (in satoshi) is valid */
-static const int64_t MAX_MONEY = 20000000 * COIN;  // 20M COIN
+static const int64_t MAX_MONEY = 40000000 * COIN;  // 40M COIN
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
@@ -73,7 +73,7 @@ inline int64_t FutureDrift(int64_t nTime) { return nTime + DRIFT; }
 /** "reject" message codes **/
 static const unsigned char REJECT_INVALID = 0x10;
 
-inline int64_t GetMNCollateral(int nHeight) { return 2500; }
+inline int64_t GetMNCollateral(int nHeight) { return 5000; }
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;

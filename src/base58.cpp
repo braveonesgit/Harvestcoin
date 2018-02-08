@@ -226,11 +226,11 @@ int CBase58Data::CompareTo(const CBase58Data& b58) const {
 }
 
 namespace {
-    class CTokugawacoinAddressVisitor : public boost::static_visitor<bool> {
+    class CGainercoinAddressVisitor : public boost::static_visitor<bool> {
     private:
-        CTokugawacoinAddress *addr;
+        CGainercoinAddress *addr;
     public:
-        CTokugawacoinAddressVisitor(CTokugawacoinAddress *addrIn) : addr(addrIn) { }
+        CGainercoinAddressVisitor(CGainercoinAddress *addrIn) : addr(addrIn) { }
 
         bool operator()(const CKeyID &id) const { return addr->Set(id); }
         bool operator()(const CScriptID &id) const { return addr->Set(id); }
@@ -250,28 +250,28 @@ namespace {
     };
 };
 
-bool CTokugawacoinAddress::Set(const CKeyID &id) {
+bool CGainercoinAddress::Set(const CKeyID &id) {
     SetData(Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS), &id, 20);
     return true;
 }
 
-bool CTokugawacoinAddress::Set(const CScriptID &id) {
+bool CGainercoinAddress::Set(const CScriptID &id) {
     SetData(Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS), &id, 20);
     return true;
 }
 
-bool CTokugawacoinAddress::Set(const CTxDestination &dest) {
-    return boost::apply_visitor(CTokugawacoinAddressVisitor(this), dest);
+bool CGainercoinAddress::Set(const CTxDestination &dest) {
+    return boost::apply_visitor(CGainercoinAddressVisitor(this), dest);
 }
 
-bool CTokugawacoinAddress::IsValid() const {
+bool CGainercoinAddress::IsValid() const {
     bool fCorrectSize = vchData.size() == 20;
     bool fKnownVersion = vchVersion == Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS) ||
                          vchVersion == Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS);
     return fCorrectSize && fKnownVersion;
 }
 
-CTxDestination CTokugawacoinAddress::Get() const {
+CTxDestination CGainercoinAddress::Get() const {
     if (!IsValid())
         return CNoDestination();
     uint160 id;
@@ -284,7 +284,7 @@ CTxDestination CTokugawacoinAddress::Get() const {
         return CNoDestination();
 }
 
-bool CTokugawacoinAddress::GetKeyID(CKeyID &keyID) const {
+bool CGainercoinAddress::GetKeyID(CKeyID &keyID) const {
     if (!IsValid() || vchVersion != Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS))
         return false;
     uint160 id;
@@ -293,34 +293,34 @@ bool CTokugawacoinAddress::GetKeyID(CKeyID &keyID) const {
     return true;
 }
 
-bool CTokugawacoinAddress::IsScript() const {
+bool CGainercoinAddress::IsScript() const {
     return IsValid() && vchVersion == Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS);
 }
 
-void CTokugawacoinSecret::SetKey(const CKey& vchSecret) {
+void CGainercoinSecret::SetKey(const CKey& vchSecret) {
     assert(vchSecret.IsValid());
     SetData(Params().Base58Prefix(CChainParams::SECRET_KEY), vchSecret.begin(), vchSecret.size());
     if (vchSecret.IsCompressed())
         vchData.push_back(1);
 }
 
-CKey CTokugawacoinSecret::GetKey() {
+CKey CGainercoinSecret::GetKey() {
     CKey ret;
     ret.Set(&vchData[0], &vchData[32], vchData.size() > 32 && vchData[32] == 1);
     return ret;
 }
 
-bool CTokugawacoinSecret::IsValid() const {
+bool CGainercoinSecret::IsValid() const {
     bool fExpectedFormat = vchData.size() == 32 || (vchData.size() == 33 && vchData[32] == 1);
     bool fCorrectVersion = vchVersion == Params().Base58Prefix(CChainParams::SECRET_KEY);
     return fExpectedFormat && fCorrectVersion;
 }
 
-bool CTokugawacoinSecret::SetString(const char* pszSecret) {
+bool CGainercoinSecret::SetString(const char* pszSecret) {
     return CBase58Data::SetString(pszSecret) && IsValid();
 }
 
-bool CTokugawacoinSecret::SetString(const std::string& strSecret) {
+bool CGainercoinSecret::SetString(const std::string& strSecret) {
     return SetString(strSecret.c_str());
 }
 

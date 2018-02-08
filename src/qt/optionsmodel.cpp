@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizeTokugawaAmount"))
-        settings.setValue("nAnonymizeTokugawaAmount", 1000);
-    nAnonymizeTokugawaAmount = settings.value("nAnonymizeTokugawaAmount").toLongLong();
+    if (!settings.contains("nAnonymizeGainerCoinAmount"))
+        settings.setValue("nAnonymizeGainerCoinAmount", 1000);
+    nAnonymizeGainerCoinAmount = settings.value("nAnonymizeGainerCoinAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeTokugawaAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeTokugawaAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeGainerCoinAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeGainerCoinAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeTokugawaAmount:
-            return QVariant(nAnonymizeTokugawaAmount);
+        case AnonymizeGainerCoinAmount:
+            return QVariant(nAnonymizeGainerCoinAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeTokugawaAmount:
-            nAnonymizeTokugawaAmount = value.toInt();
-            settings.setValue("nAnonymizeTokugawaAmount", nAnonymizeTokugawaAmount);
-            emit AnonymizeTokugawaAmountChanged(nAnonymizeTokugawaAmount);
+        case AnonymizeGainerCoinAmount:
+            nAnonymizeGainerCoinAmount = value.toInt();
+            settings.setValue("nAnonymizeGainerCoinAmount", nAnonymizeGainerCoinAmount);
+            emit AnonymizeGainerCoinAmountChanged(nAnonymizeGainerCoinAmount);
             break;
         default:
             break;

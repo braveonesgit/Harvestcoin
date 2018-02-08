@@ -50,7 +50,7 @@ CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 unsigned int nStakeMinAge = 24 * 60 * 60; // 24 hours
 unsigned int nModifierInterval = 8 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 46;
+int nCoinbaseMaturity = 44;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -81,7 +81,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Tokugawa Signed Message:\n";
+const string strMessageMagic = "GainerCoin Signed Message:\n";
 
 std::set<uint256> setValidatedTx;
 
@@ -1356,11 +1356,11 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
 	int64_t nSubsidy;
-	if (nHeight < 101) {
+	if (nHeight < 201) {
 		nSubsidy = 10000 * COIN;
 	}
 	else {
-		nSubsidy = 14 * COIN;
+		nSubsidy = 8 * COIN;
 	}
 
     return nSubsidy + nFees;
@@ -1370,8 +1370,39 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 // miner's coin stake reward
 int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, int64_t nFees)
 {
-    int64_t nSubsidy = STATIC_POS_REWARD;
-    return nSubsidy + nFees;
+    int64_t nSubsidy;
+	
+	int nHeight = pindexPrev->nHeight + 1;
+
+	if (nHeight < 4401) {
+		nSubsidy = STATIC_POS_REWARD;
+	}
+	else if (nHeight < 6801) {
+		nSubsidy = 10 * COIN;
+	}
+	else if (nHeight < 9201) {
+		nSubsidy = 12 * COIN;
+	}
+	else if (nHeight == 16500) {
+		nSubsidy = 2500000 * COIN;
+	}
+	else if (nHeight < 18801) {
+		nSubsidy = 14 * COIN;
+	}
+	else if (nHeight < 38001) {
+		nSubsidy = 16 * COIN;
+	}
+	else if (nHeight < 50001) {
+		nSubsidy = 18 * COIN;
+	}
+	else if (nHeight < 62001) {
+		nSubsidy = 20 * COIN;
+	}
+	else {
+		nSubsidy = 22 * COIN;
+	}
+
+	return nSubsidy + nFees;
 }
 
 static int64_t nTargetTimespan = 25 * 60;  //25 mins
@@ -2515,7 +2546,7 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 
                     CTxDestination address1;
                     ExtractDestination(payee, address1);
-                    CTokugawacoinAddress address2(address1);
+                    CGainercoinAddress address2(address1);
 
                     if(!foundPaymentAndPayee) {
                         if(fDebug) { LogPrintf("CheckBlock() : Couldn't find masternode payment(%d|%d) or payee(%d|%s) nHeight %d. \n", foundPaymentAmount, masternodePaymentAmount, foundPayee, address2.ToString().c_str(), pindexBest->nHeight+1); }
@@ -3216,7 +3247,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("Tokugawa-loadblk");
+    RenameThread("GainerCoin-loadblk");
 
     CImportingNow imp;
 
@@ -4475,7 +4506,8 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 {
-    int64_t ret = blockValue * 4/5; //80%
+    int64_t ret = blockValue * 3/4; //75%
+
 
     return ret;
 }

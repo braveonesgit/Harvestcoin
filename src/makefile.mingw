@@ -10,15 +10,15 @@ BOOST_SUFFIX?=-mgw49-mt-s-1_57
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"d:/project/Tokugawa/include/boost-1_57" \
- -I"d:/project/Tokugawa/include/miniupnpc" \
- -I"d:/project/Tokugawa/include" \
- -I"d:/project/Tokugawa"
+ -I"d:/project/GainerCoin/include/boost-1_57" \
+ -I"d:/project/GainerCoin/include/miniupnpc" \
+ -I"d:/project/GainerCoin/include" \
+ -I"d:/project/GainerCoin"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- -L"d:/project/Tokugawa/lib" \
- -L"d:/project/Tokugawa"
+ -L"d:/project/GainerCoin/lib" \
+ -L"d:/project/GainerCoin"
 
 LIBS= \
  -l leveldb \
@@ -126,7 +126,7 @@ ifeq (${USE_WALLET}, 1)
         obj/walletdb.o
 endif
 
-all: Tokugawad.exe
+all: GainerCoind.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a -l shlwapi
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -142,12 +142,12 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-Tokugawad.exe: $(OBJS:obj/%=obj/%)
+GainerCoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
 	-rm -f obj/*.o
-	-rm -f Tokugawad.exe
+	-rm -f GainerCoind.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=NATIVE_WINDOWS $(MAKE) clean && cd ..
 

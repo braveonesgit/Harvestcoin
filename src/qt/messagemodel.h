@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to Tokugawa Secure Messaging from Qt view code. */
+/** Interface to GainerCoin Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

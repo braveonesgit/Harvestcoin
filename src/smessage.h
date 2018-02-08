@@ -166,7 +166,7 @@ public:
 
 
 // -- get at the data
-class CTokugawacoinAddress_B : public CTokugawacoinAddress
+class CGainercoinAddress_B : public CGainercoinAddress
 {
 public:
     uint8_t getVersion()
